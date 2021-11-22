@@ -1,340 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>HEXO命令文档</title>
-    <url>/2021/11/20/HEXO%E5%91%BD%E4%BB%A4%E6%96%87%E6%A1%A3/</url>
-    <content><![CDATA[<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo server</code></pre>
-<span id="more"></span>
-
-<hr>
-<p>To Be Continued.</p>
-<!-- Q.E.D. -->
-
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo generate</code></pre>
-
-<!--more--> 
-
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo deploy</code></pre>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>HEXO命令文档</title>
+      <link href="/2021/11/20/HEXO%E5%91%BD%E4%BB%A4%E6%96%87%E6%A1%A3/"/>
+      <url>/2021/11/20/HEXO%E5%91%BD%E4%BB%A4%E6%96%87%E6%A1%A3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo server</code></pre><span id="more"></span><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo generate</code></pre><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="language-bash" data-language="bash"><code class="language-bash">$ hexo deploy</code></pre>]]></content>
+      
+      
       <categories>
-        <category>使用文档</category>
+          
+          <category> 使用文档 </category>
+          
       </categories>
-      <tags>
-        <tag>Hexo命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>MarkDown语法文档</title>
-    <url>/2021/11/17/MarkDown%E8%AF%AD%E6%B3%95%E6%96%87%E6%A1%A3/</url>
-    <content><![CDATA[<h2 id="代码块语法"><a href="#代码块语法" class="headerlink" title="代码块语法"></a>代码块语法</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 代码块语法：
-// ``<span class="token variable"><span class="token variable">`</span>编程语言名字
-// 例如: <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>java
-// 例如: <span class="token variable">`</span></span>``shell</code></pre>
-
-<p>** Java代码**</p>
-<pre class="language-JAVA" data-language="JAVA"><code class="language-JAVA">pubulic class HelloWorld &#123;
-    public static void main(String[] args)&#123;
-        System.out.println(&quot;HelloWorld!!&quot;)
-    &#125;
-&#125;</code></pre>
-
-<span id="more"></span>
-
-<hr>
-<p>To Be Continued.</p>
-<!-- Q.E.D. -->
-
-<p><strong>Shell脚本</strong></p>
-<pre class="language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># java -jar blog start</span></code></pre>
-
-<h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 语法：
-// <span class="token comment"># 标题名称(几级标题就有几个#，#和标题名称之间用空格隔开)</span>
-// 例如：
-// <span class="token comment"># 一级标题</span>
-// <span class="token comment">## 二级标题</span>
-// <span class="token comment">### 三级标题</span>
-// <span class="token comment">#### 四级标题</span>
-// <span class="token comment">##### 五级标题</span>
-// <span class="token comment">###### 六级标题</span></code></pre>
-
-<h2 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// <span class="token number">3.1</span> 加粗
-// 语法：**需要加粗的内容**
-// 例如：**马戏团在逃王子**
-// <span class="token number">3.2</span> 斜体
-// 语法：*需要加斜体的内容*
-// 例如：*马戏团在逃王子*
-// <span class="token number">3.3</span> 删除线
-// 语法：~~需要加删除线的内容~~
-// 例如：~~马戏团在逃王子~~</code></pre>
-
-<p>// 3.1 加粗<br>// 语法：<strong>需要加粗的内容</strong><br>// 例如：<strong>马戏团在逃王子</strong><br>// 3.2 斜体<br>// 语法：<em>需要加斜体的内容</em><br>// 例如：<em>马戏团在逃王子</em><br>// 3.3 删除线<br>// 语法：<del>需要加删除线的内容</del><br>// 例如：<del>马戏团在逃王子</del></p>
-<h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 引用语法：
-// 例如：
-// <span class="token operator">></span>作者：鲁迅
-// 此后如竟没有炬火：我便是唯一的光。</code></pre>
-
-<blockquote>
-<p>作者：鲁迅</p>
-<p>此后如竟没有炬火：我便是唯一的光。</p>
-</blockquote>
-<h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 分割线
-// 语法一：--- + 回车
-// 语法二：*** + 回车</code></pre>
-
-<hr>
-<hr>
-<h2 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h2><pre class="language-none"><code class="language-none">&#x2F;&#x2F; 在线图片&#x2F;本地图片
-&#x2F;&#x2F; 语法：
-&#x2F;&#x2F; ！[图片名字](路径)
-&#x2F;&#x2F; 例如：
-&#x2F;&#x2F; ![我的图片](&#x2F;image&#x2F;me.png)</code></pre>
-
-<p><img src="" alt="我的图片" loading="lazy"></p>
-<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 超链接语法：
-// <span class="token punctuation">[</span>链接名字<span class="token punctuation">]</span><span class="token punctuation">(</span>网址<span class="token punctuation">)</span>
-// 例如：
-// <span class="token punctuation">[</span>百度一下<span class="token punctuation">]</span><span class="token punctuation">(</span>https://www.baidu.com/<span class="token punctuation">)</span></code></pre>
-
-<p>// 超链接语法：<br>// <a href="%E7%BD%91%E5%9D%80">链接名字</a><br>// 例如：<br>// <a href="https://www.baidu.com/">百度一下</a></p>
-<h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 无序列表
-// 例如：
-// - 目录1
-//    - 目录1.1
-// - 目录2
-// 有序列表
-// 例如：
-// 语法 <span class="token number">1</span>+. +名称（注意.和名称之间有空格）
-// <span class="token number">1</span>. 首页 
-// <span class="token number">2</span>. 导航</code></pre>
-
-<ul>
-<li>目录1<ul>
-<li>目录1.1</li>
-</ul>
-</li>
-<li>目录2</li>
-</ul>
-<ol>
-<li>首页</li>
-<li>导航</li>
-</ol>
-<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><pre class="language-ruby" data-language="ruby"><code class="language-ruby"><span class="token operator">/</span><span class="token operator">/</span> <span class="token punctuation">(</span>语法比较复杂，建议用<span class="token constant">Typora</span>工具右键添加表格<span class="token punctuation">)</span>
-<span class="token operator">|</span> 一个普通标题 <span class="token operator">|</span> 一个普通标题 <span class="token operator">|</span> 一个普通标题 <span class="token operator">|</span>
-<span class="token operator">|</span> <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> <span class="token operator">|</span> <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> <span class="token operator">|</span> <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> <span class="token operator">|</span>
-<span class="token operator">|</span> 短文本 <span class="token operator">|</span> 中等文本 <span class="token operator">|</span> 稍微长一点的文本 <span class="token operator">|</span>
-<span class="token operator">|</span> 稍微长一点的文本 <span class="token operator">|</span> 短文本 <span class="token operator">|</span> 中等文本 <span class="token operator">|</span></code></pre>
-
-<table>
-<thead>
-<tr>
-<th>一个普通标题</th>
-<th>一个普通标题</th>
-<th>一个普通标题</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>短文本</td>
-<td>中等文本</td>
-<td>稍微长一点的文本</td>
-</tr>
-<tr>
-<td>稍微长一点的文本</td>
-<td>短文本</td>
-<td>中等文本</td>
-</tr>
-</tbody></table>
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> Hexo命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>算法复杂度</title>
+      <link href="/2021/11/17/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/"/>
+      <url>/2021/11/17/%E7%AE%97%E6%B3%95%E5%A4%8D%E6%9D%82%E5%BA%A6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h1><h2 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h2><p>时间复杂度指输入数据大小为N时，算法运行所花费的时间。</p><ul><li>体现的是计算操作随数据大小 N 变化时的变化情况。假设算法运行总共需要「 1 次操作」、「 100 次操作」，此两情况的时间复杂度都为常数级 O(1)O(1) ；需要「 N 次操作」、「 100N次操作」的时间复杂度都为 O(N) 。</li></ul><h2 id="符号表示："><a href="#符号表示：" class="headerlink" title="符号表示："></a>符号表示：</h2><ul><li>「最差情况」<em>O</em></li><li>「平均情况」Θ</li><li>「最佳情况」Ω</li></ul><span id="more"></span><h2 id="常见种类："><a href="#常见种类：" class="headerlink" title="常见种类："></a>常见种类：</h2><p>根据从小到大排列，常见的算法时间复杂度主要有：</p><center>O(1) < O(logN) < O(N) < O(NlogN) < O(N^2) < O(2^N) < O(N!)</center><ul><li><p>常数 O(1)：运行次数与 N 大小呈常数关系，即不随输入数据大小 N 的变化而变化。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 例1：运行次数与 N 大小呈常数关系，即不随输入数据大小 N 的变化而变化。</span><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> x <span class="token operator">=</span> a <span class="token operator">*</span> b <span class="token operator">+</span> <span class="token class-name">N</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token comment">// 例2：对于以下代码，无论 a 取多大，都与输入数据大小 N 无关，因此时间复杂度仍为 O(1)O(1) 。</span><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        count<span class="token operator">++</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> count<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>线性 O(N) ：循环运行次数与N大小呈线性关系，时间复杂度为 O*(<em>N</em>) 。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 例1：</span><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>        count<span class="token operator">++</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> count<span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token comment">// 例2：对于以下代码，虽然是两层循环，但第二层与 N 大小无关，因此整体仍与 N 呈线性关系。</span><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>            count<span class="token operator">++</span><span class="token punctuation">;</span>        <span class="token punctuation">&#125;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> count<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>平方 O(N^2) ：两层循环相互独立，都与 N 呈线性关系，因此总体与 N 呈平方关系，时间复杂度为 O(N^2)。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 双循环</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">bubbleSort</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> <span class="token class-name">N</span> <span class="token operator">=</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span> <span class="token operator">-</span> i<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>            <span class="token keyword">if</span> <span class="token punctuation">(</span>nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">></span> nums<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>                <span class="token keyword">int</span> tmp <span class="token operator">=</span> nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>                nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> nums<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>                nums<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> tmp<span class="token punctuation">;</span>            <span class="token punctuation">&#125;</span>        <span class="token punctuation">&#125;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> nums<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>指数 O(2^N)：算法中，指数阶常出现于递归，算代码如下所示。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 递归</span><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span>         <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> count_1 <span class="token operator">=</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> count_2 <span class="token operator">=</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> count_1 <span class="token operator">+</span> count_2<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>对数 O(logN) ：对数阶与指数阶相反，指数阶为 “每轮分裂出两倍的情况” ，而对数阶是 “每轮排除一半的情况” 。对数阶常出现于「二分法」、「分治」等算法中，体现着 “一分为二” 或 “一分为多” 的算法思想。设循环次数为 mm ，则输入数据大小 N 与 2 ^ m呈线性关系，两边同时取 log_2对数，则得到循环次数 m 与 log_2 N呈线性关系，即时间复杂度为 O(logN) 。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// </span><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">float</span> i <span class="token operator">=</span> <span class="token class-name">N</span><span class="token punctuation">;</span>    <span class="token keyword">while</span><span class="token punctuation">(</span>i <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>        i <span class="token operator">=</span> i <span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>        count<span class="token operator">++</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> count<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>线性对数 O*(<em>N</em>log*N) ：两层循环相互独立，第一层和第二层时间复杂度分别为 O(\log N)O(logN) 和 O(N)O(N) ，则总体时间复杂度为 O(N \log N)O(NlogN) ；</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">float</span> i <span class="token operator">=</span> <span class="token class-name">N</span><span class="token punctuation">;</span>    <span class="token keyword">while</span><span class="token punctuation">(</span>i <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>        i <span class="token operator">=</span> i <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span>            count<span class="token operator">++</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> count<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>阶乘 O(N!) ：阶乘阶对应数学上常见的 “全排列” 。即给定 N个互不重复的元素，求其所有可能的排列方案，则方案数量为：</p><center>N×(N−1)×(N−2)×⋯×2×1=N!</center><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>        count <span class="token operator">+=</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span>    <span class="token keyword">return</span> count<span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li></ul><h1 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h1><h2 id="定义：-1"><a href="#定义：-1" class="headerlink" title="定义："></a>定义：</h2><p>空间复杂度涉及的空间类型有：</p><ul><li><p>输入空间： 存储输入数据所需的空间大小；</p></li><li><p>暂存空间： 算法运行过程中，存储所有中间变量和对象等数据所需的空间大小；</p></li><li><p>输出空间： 算法运行返回时，存储输出数据所需的空间大小；</p></li></ul><p>通常情况下，空间复杂度指在输入数据大小为 N 时，算法运行所使用的「暂存空间」+「输出空间」的总体大小。而根据不同来源，算法使用的内存空间分为三类：</p><ul><li><p>指令空间： 编译后，程序指令所使用的内存空间</p></li><li><p>数据空间： 算法中的各项变量使用的空间，包括：声明的常量、变量、动态数组、动态对象等使用的内存空间。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Node</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> val<span class="token punctuation">;</span>    <span class="token class-name">Node</span> next<span class="token punctuation">;</span>    <span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span> val <span class="token operator">=</span> x<span class="token punctuation">;</span> <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span><span class="token keyword">void</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> num <span class="token operator">=</span> <span class="token class-name">N</span><span class="token punctuation">;</span>             <span class="token comment">// 变量</span>    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token class-name">N</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// 动态数组</span>    <span class="token class-name">Node</span> node <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 动态对象</span><span class="token punctuation">&#125;</span></code></pre></li><li><p>栈帧空间：程序调用函数是基于栈实现的，函数在调用期间，占用常量大小的栈帧空间，直至返回后释放。如以下代码所示，在循环中调用函数，每轮调用 <code>test()</code> 返回后，栈帧空间已被释放，因此空间复杂度仍为 O(1) 。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span><span class="token keyword">void</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></code></pre><p>算法中，栈帧空间的累计常出现于递归调用。如以下代码所示，通过递归调用，会同时存在 N 个未返回的函数 algorithm() ，此时累计使用 O(N) 大小的栈帧空间。</p><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>    <span class="token keyword">return</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span><span class="token punctuation">&#125;</span></code></pre></li></ul><h2 id="符号表示：-1"><a href="#符号表示：-1" class="headerlink" title="符号表示："></a>符号表示：</h2><p>通常情况下，空间复杂度统计算法在 “最差情况” 下使用的空间大小，以体现算法运行所需预留的空间量，使用符号 O 表示。</p><p>最差情况有两层含义，分别为「最差输入数据」、算法运行中的「最差运行点」。例如以下代码：</p><blockquote><p> 输入整数 N ，取值范围 N≥1 ；</p></blockquote><ul><li>最差输入数据： 当 N≤10 时，数组 nums 的长度恒定为 10 ，空间复杂度为 O(10) = O(1)；当 N &gt; 10 时，数组 nums长度为 N ，空间复杂度为 O(N) ；因此，空间复杂度应为最差输入数据情况下O(N)。</li><li>最差运行点： 在执行 nums = [0] * 10 时，算法仅使用 O(1)大小的空间；而当执行 nums = [0] * N 时，算法使用 O(N) 的空间；因此，空间复杂度应为最差运行点的 O(N) 。</li></ul><pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">void</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">int</span> num <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>              <span class="token comment">// O(1)</span>    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// O(1)</span>    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">></span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>        nums <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token class-name">N</span><span class="token punctuation">]</span><span class="token punctuation">;</span>    <span class="token comment">// O(N)</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></code></pre><h2 id="常见种类"><a href="#常见种类" class="headerlink" title="常见种类"></a>常见种类</h2><p>根据从小到大排列，常见的算法空间复杂度有：</p><center>O(1) < O(\log N) < O(N) < O(N^2) < O(2^N)</center>]]></content>
+      
+      
       <categories>
-        <category>使用文档</category>
+          
+          <category> LeetCode </category>
+          
+          <category> 学习笔记 </category>
+          
+          <category> 图解算法数据结构 </category>
+          
+          <category> 概述 </category>
+          
       </categories>
-      <tags>
-        <tag>MarkDown语法文档</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>LeetCode-图解算法数据结构-概述</title>
-    <url>/2021/11/17/LeetCode-%E5%9B%BE%E8%A7%A3%E7%AE%97%E6%B3%95%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E6%A6%82%E8%BF%B0/</url>
-    <content><![CDATA[<h2 id="算法复杂度"><a href="#算法复杂度" class="headerlink" title="算法复杂度"></a>算法复杂度</h2><h3 id="时间复杂度"><a href="#时间复杂度" class="headerlink" title="时间复杂度"></a>时间复杂度</h3><h4 id="定义："><a href="#定义：" class="headerlink" title="定义："></a>定义：</h4><p>时间复杂度指输入数据大小为N时，算法运行所花费的时间。</p>
-<ul>
-<li>体现的是计算操作随数据大小 N 变化时的变化情况。假设算法运行总共需要「 1 次操作」、「 100 次操作」，此两情况的时间复杂度都为常数级 O(1)O(1) ；需要「 N 次操作」、「 100N次操作」的时间复杂度都为 O(N) 。</li>
-</ul>
-<h4 id="符号表示："><a href="#符号表示：" class="headerlink" title="符号表示："></a>符号表示：</h4><ul>
-<li>「最差情况」<em>O</em></li>
-<li>「平均情况」Θ</li>
-<li>「最佳情况」Ω<span id="more"></span></li>
-</ul>
-<hr>
-<p>To Be Continued.</p>
-<!-- Q.E.D. -->
-
-<h4 id="常见种类："><a href="#常见种类：" class="headerlink" title="常见种类："></a>常见种类：</h4><p>根据从小到大排列，常见的算法时间复杂度主要有：</p>
-<center>O(1) < O(logN) < O(N) < O(NlogN) < O(N^2) < O(2^N) < O(N!)</center>
-
-<ul>
-<li><p>常数 O(1)：运行次数与 N 大小呈常数关系，即不随输入数据大小 N 的变化而变化。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 例1：运行次数与 N 大小呈常数关系，即不随输入数据大小 N 的变化而变化。</span>
-<span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> b <span class="token operator">=</span> <span class="token number">2</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> x <span class="token operator">=</span> a <span class="token operator">*</span> b <span class="token operator">+</span> <span class="token class-name">N</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token comment">// 例2：对于以下代码，无论 a 取多大，都与输入数据大小 N 无关，因此时间复杂度仍为 O(1)O(1) 。</span>
-<span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        count<span class="token operator">++</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> count<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>线性 O(N) ：循环运行次数与N大小呈线性关系，时间复杂度为 O*(<em>N</em>) 。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 例1：</span>
-<span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span>
-        count<span class="token operator">++</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> count<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-<span class="token comment">// 例2：对于以下代码，虽然是两层循环，但第二层与 N 大小无关，因此整体仍与 N 呈线性关系。</span>
-<span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> a <span class="token operator">=</span> <span class="token number">10000</span><span class="token punctuation">;</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> a<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-            count<span class="token operator">++</span><span class="token punctuation">;</span>
-        <span class="token punctuation">&#125;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> count<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>平方 O(N^2) ：两层循环相互独立，都与 NN 呈线性关系，因此总体与 NN 呈平方关系，时间复杂度为 O(N^2)。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 双循环</span>
-<span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">bubbleSort</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> <span class="token class-name">N</span> <span class="token operator">=</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span> <span class="token operator">-</span> i<span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">></span> nums<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-                <span class="token keyword">int</span> tmp <span class="token operator">=</span> nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span><span class="token punctuation">;</span>
-                nums<span class="token punctuation">[</span>j<span class="token punctuation">]</span> <span class="token operator">=</span> nums<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
-                nums<span class="token punctuation">[</span>j <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> tmp<span class="token punctuation">;</span>
-            <span class="token punctuation">&#125;</span>
-        <span class="token punctuation">&#125;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> nums<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>指数 O(2^N)：算法中，指数阶常出现于递归，算代码如下所示。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// 递归</span>
-<span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">&lt;=</span> <span class="token number">0</span><span class="token punctuation">)</span> 
-        <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> count_1 <span class="token operator">=</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">int</span> count_2 <span class="token operator">=</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> count_1 <span class="token operator">+</span> count_2<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>对数 O(logN) ：对数阶与指数阶相反，指数阶为 “每轮分裂出两倍的情况” ，而对数阶是 “每轮排除一半的情况” 。对数阶常出现于「二分法」、「分治」等算法中，体现着 “一分为二” 或 “一分为多” 的算法思想。设循环次数为 mm ，则输入数据大小 N 与 2 ^ m呈线性关系，两边同时取 log_2对数，则得到循环次数 m 与 log_2 N呈线性关系，即时间复杂度为 O(logN) 。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token comment">// </span>
-<span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">float</span> i <span class="token operator">=</span> <span class="token class-name">N</span><span class="token punctuation">;</span>
-    <span class="token keyword">while</span><span class="token punctuation">(</span>i <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-        i <span class="token operator">=</span> i <span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span>
-        count<span class="token operator">++</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> count<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>线性对数 O*(<em>N</em>log*N) ：两层循环相互独立，第一层和第二层时间复杂度分别为 O(\log N)O(logN) 和 O(N)O(N) ，则总体时间复杂度为 O(N \log N)O(NlogN) ；</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
-    <span class="token keyword">float</span> i <span class="token operator">=</span> <span class="token class-name">N</span><span class="token punctuation">;</span>
-    <span class="token keyword">while</span><span class="token punctuation">(</span>i <span class="token operator">></span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-        i <span class="token operator">=</span> i <span class="token operator">/</span> <span class="token number">2</span><span class="token punctuation">;</span>
-        <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> j <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> j <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> j<span class="token operator">++</span><span class="token punctuation">)</span>
-            count<span class="token operator">++</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-    <span class="token keyword">return</span> count<span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>阶乘 O(N!) ：阶乘阶对应数学上常见的 “全排列” 。即给定 NN 个互不重复的元素，求其所有可能的排列方案，则方案数量为：</p>
-<center>N×(N−1)×(N−2)×⋯×2×1=N!</center>
-
-<pre class="language-JAVA" data-language="JAVA"><code class="language-JAVA">int algorithm(int N)&#123;
-    if (N &lt;&#x3D; 0) return 1;
-    int count &#x3D; 0;
-    for (int i &#x3D; 0; i &lt; N; i++)&#123;
-        count +&#x3D; algorithm(N - 1);
-    &#125;
-    return count;
-&#125;</code></pre></li>
-</ul>
-<h3 id="空间复杂度"><a href="#空间复杂度" class="headerlink" title="空间复杂度"></a>空间复杂度</h3><h4 id="定义：-1"><a href="#定义：-1" class="headerlink" title="定义："></a>定义：</h4><p>空间复杂度涉及的空间类型有：</p>
-<ul>
-<li><p>输入空间： 存储输入数据所需的空间大小；</p>
-</li>
-<li><p>暂存空间： 算法运行过程中，存储所有中间变量和对象等数据所需的空间大小；</p>
-</li>
-<li><p>输出空间： 算法运行返回时，存储输出数据所需的空间大小；</p>
-</li>
-</ul>
-<p>通常情况下，空间复杂度指在输入数据大小为 N 时，算法运行所使用的「暂存空间」+「输出空间」的总体大小。而根据不同来源，算法使用的内存空间分为三类：</p>
-<ul>
-<li><p>指令空间： 编译后，程序指令所使用的内存空间</p>
-</li>
-<li><p>数据空间： 算法中的各项变量使用的空间，包括：声明的常量、变量、动态数组、动态对象等使用的内存空间。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Node</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> val<span class="token punctuation">;</span>
-    <span class="token class-name">Node</span> next<span class="token punctuation">;</span>
-    <span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token keyword">int</span> x<span class="token punctuation">)</span> <span class="token punctuation">&#123;</span> val <span class="token operator">=</span> x<span class="token punctuation">;</span> <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span>
-
-<span class="token keyword">void</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> num <span class="token operator">=</span> <span class="token class-name">N</span><span class="token punctuation">;</span>             <span class="token comment">// 变量</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token class-name">N</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// 动态数组</span>
-    <span class="token class-name">Node</span> node <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Node</span><span class="token punctuation">(</span><span class="token class-name">N</span><span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// 动态对象</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-<li><p>栈帧空间：程序调用函数是基于栈实现的，函数在调用期间，占用常量大小的栈帧空间，直至返回后释放。如以下代码所示，在循环中调用函数，每轮调用 <code>test()</code> 返回后，栈帧空间已被释放，因此空间复杂度仍为 O(1) 。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span>
-
-<span class="token keyword">void</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token keyword">int</span> i <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> <span class="token class-name">N</span><span class="token punctuation">;</span> i<span class="token operator">++</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        <span class="token function">test</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-    <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span></code></pre>
-
-<p>算法中，栈帧空间的累计常出现于递归调用。如以下代码所示，通过递归调用，会同时存在 N 个未返回的函数 algorithm() ，此时累计使用 O(N) 大小的栈帧空间。</p>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">int</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">&lt;=</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span>
-    <span class="token keyword">return</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">-</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span></code></pre></li>
-</ul>
-<h4 id="符号表示：-1"><a href="#符号表示：-1" class="headerlink" title="符号表示："></a>符号表示：</h4><p>通常情况下，空间复杂度统计算法在 “最差情况” 下使用的空间大小，以体现算法运行所需预留的空间量，使用符号 O 表示。</p>
-<p>最差情况有两层含义，分别为「最差输入数据」、算法运行中的「最差运行点」。例如以下代码：</p>
-<blockquote>
-<p> 输入整数 N ，取值范围 N≥1 ；</p>
-</blockquote>
-<ul>
-<li>最差输入数据： 当 N≤10 时，数组 nums 的长度恒定为 10 ，空间复杂度为 O(10) = O(1)；当 N &gt; 10 时，数组 nums长度为 N ，空间复杂度为 O(N) ；因此，空间复杂度应为最差输入数据情况下O(N)。</li>
-<li>最差运行点： 在执行 nums = [0] * 10 时，算法仅使用 O(1)大小的空间；而当执行 nums = [0] * N 时，算法使用 O(N) 的空间；因此，空间复杂度应为最差运行点的 O(N) 。</li>
-</ul>
-<pre class="language-java" data-language="java"><code class="language-java"><span class="token keyword">void</span> <span class="token function">algorithm</span><span class="token punctuation">(</span><span class="token keyword">int</span> <span class="token class-name">N</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-    <span class="token keyword">int</span> num <span class="token operator">=</span> <span class="token number">5</span><span class="token punctuation">;</span>              <span class="token comment">// O(1)</span>
-    <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token number">10</span><span class="token punctuation">]</span><span class="token punctuation">;</span> <span class="token comment">// O(1)</span>
-    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token class-name">N</span> <span class="token operator">></span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token punctuation">&#123;</span>
-        nums <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token class-name">N</span><span class="token punctuation">]</span><span class="token punctuation">;</span>    <span class="token comment">// O(N)</span>
-    <span class="token punctuation">&#125;</span>
-<span class="token punctuation">&#125;</span></code></pre>
-
-<h4 id="常见种类"><a href="#常见种类" class="headerlink" title="常见种类"></a>常见种类</h4><p>根据从小到大排列，常见的算法空间复杂度有：</p>
-<center>O(1) < O(\log N) < O(N) < O(N^2) < O(2^N)</center>
-
-]]></content>
+      
+      
+        <tags>
+            
+            <tag> 算法 </tag>
+            
+            <tag> 数据结构 </tag>
+            
+            <tag> 学习笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MarkDown语法文档</title>
+      <link href="/2021/11/17/MarkDown%E8%AF%AD%E6%B3%95%E6%96%87%E6%A1%A3/"/>
+      <url>/2021/11/17/MarkDown%E8%AF%AD%E6%B3%95%E6%96%87%E6%A1%A3/</url>
+      
+        <content type="html"><![CDATA[<h2 id="代码块语法"><a href="#代码块语法" class="headerlink" title="代码块语法"></a>代码块语法</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 代码块语法：// ``<span class="token variable"><span class="token variable">`</span>编程语言名字// 例如: <span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>java// 例如: <span class="token variable">`</span></span>``shell</code></pre><p><strong>Java代码</strong></p><pre class="language-java" data-language="java"><code class="language-java">pubulic <span class="token keyword">class</span> <span class="token class-name">HelloWorld</span> <span class="token punctuation">&#123;</span>    <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">&#123;</span>        <span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"HelloWorld!!"</span><span class="token punctuation">)</span>    <span class="token punctuation">&#125;</span><span class="token punctuation">&#125;</span></code></pre><span id="more"></span><hr><p>To Be Continued.</p><p><strong>Shell脚本</strong></p><pre class="language-shell" data-language="shell"><code class="language-shell"><span class="token comment"># java -jar blog start</span></code></pre><h2 id="标题语法"><a href="#标题语法" class="headerlink" title="标题语法"></a>标题语法</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 语法：// <span class="token comment"># 标题名称(几级标题就有几个#，#和标题名称之间用空格隔开)</span>// 例如：// <span class="token comment"># 一级标题</span>// <span class="token comment">## 二级标题</span>// <span class="token comment">### 三级标题</span>// <span class="token comment">#### 四级标题</span>// <span class="token comment">##### 五级标题</span>// <span class="token comment">###### 六级标题</span></code></pre><h2 id="字体格式"><a href="#字体格式" class="headerlink" title="字体格式"></a>字体格式</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// <span class="token number">3.1</span> 加粗// 语法：**需要加粗的内容**// 例如：**马戏团在逃王子**// <span class="token number">3.2</span> 斜体// 语法：*需要加斜体的内容*// 例如：*马戏团在逃王子*// <span class="token number">3.3</span> 删除线// 语法：~~需要加删除线的内容~~// 例如：~~马戏团在逃王子~~</code></pre><p>// 3.1 加粗<br>// 语法：<strong>需要加粗的内容</strong><br>// 例如：<strong>马戏团在逃王子</strong><br>// 3.2 斜体<br>// 语法：<em>需要加斜体的内容</em><br>// 例如：<em>马戏团在逃王子</em><br>// 3.3 删除线<br>// 语法：<del>需要加删除线的内容</del><br>// 例如：<del>马戏团在逃王子</del></p><h2 id="引用"><a href="#引用" class="headerlink" title="引用"></a>引用</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 引用语法：// 例如：// <span class="token operator">></span>作者：鲁迅// 此后如竟没有炬火：我便是唯一的光。</code></pre><blockquote><p>作者：鲁迅</p><p>此后如竟没有炬火：我便是唯一的光。</p></blockquote><h2 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 分割线// 语法一：--- + 回车// 语法二：*** + 回车</code></pre><hr><hr><h2 id="图片插入"><a href="#图片插入" class="headerlink" title="图片插入"></a>图片插入</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 在线图片/本地图片// 语法：// ！<span class="token punctuation">[</span>图片名字<span class="token punctuation">]</span><span class="token punctuation">(</span>路径<span class="token punctuation">)</span>// 例如：// <span class="token operator">!</span><span class="token punctuation">[</span>我的图片<span class="token punctuation">]</span><span class="token punctuation">(</span>/image/me.png<span class="token punctuation">)</span></code></pre><p><img src="" alt="我的图片" loading="lazy"></p><h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 超链接语法：// <span class="token punctuation">[</span>链接名字<span class="token punctuation">]</span><span class="token punctuation">(</span>网址<span class="token punctuation">)</span>// 例如：// <span class="token punctuation">[</span>百度一下<span class="token punctuation">]</span><span class="token punctuation">(</span>https://www.baidu.com/<span class="token punctuation">)</span></code></pre><p>// 超链接语法：<br>// <a href="%E7%BD%91%E5%9D%80">链接名字</a><br>// 例如：<br>// <a href="https://www.baidu.com/">百度一下</a></p><h2 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h2><pre class="language-bash" data-language="bash"><code class="language-bash">// 无序列表// 例如：// - 目录1//    - 目录1.1// - 目录2// 有序列表// 例如：// 语法 <span class="token number">1</span>+. +名称（注意.和名称之间有空格）// <span class="token number">1</span>. 首页 // <span class="token number">2</span>. 导航</code></pre><ul><li>目录1<ul><li>目录1.1</li></ul></li><li>目录2</li></ul><ol><li>首页</li><li>导航</li></ol><h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><pre class="language-ruby" data-language="ruby"><code class="language-ruby"><span class="token operator">/</span><span class="token operator">/</span> <span class="token punctuation">(</span>语法比较复杂，建议用<span class="token constant">Typora</span>工具右键添加表格<span class="token punctuation">)</span><span class="token operator">|</span> 一个普通标题 <span class="token operator">|</span> 一个普通标题 <span class="token operator">|</span> 一个普通标题 <span class="token operator">|</span><span class="token operator">|</span> <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> <span class="token operator">|</span> <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> <span class="token operator">|</span> <span class="token operator">--</span><span class="token operator">--</span><span class="token operator">--</span> <span class="token operator">|</span><span class="token operator">|</span> 短文本 <span class="token operator">|</span> 中等文本 <span class="token operator">|</span> 稍微长一点的文本 <span class="token operator">|</span><span class="token operator">|</span> 稍微长一点的文本 <span class="token operator">|</span> 短文本 <span class="token operator">|</span> 中等文本 <span class="token operator">|</span></code></pre><table><thead><tr><th>一个普通标题</th><th>一个普通标题</th><th>一个普通标题</th></tr></thead><tbody><tr><td>短文本</td><td>中等文本</td><td>稍微长一点的文本</td></tr><tr><td>稍微长一点的文本</td><td>短文本</td><td>中等文本</td></tr></tbody></table>]]></content>
+      
+      
       <categories>
-        <category>学习笔记</category>
+          
+          <category> 使用文档 </category>
+          
       </categories>
-      <tags>
-        <tag>算法数据结构</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> MarkDown语法文档 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
